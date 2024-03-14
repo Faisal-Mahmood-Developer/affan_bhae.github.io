@@ -1,0 +1,164 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* navlink hover color  */
+.nav-link:hover {
+    border-bottom: 2px solid rgb(73, 108, 213);
+    padding: 5px;
+}
+
+.myColor {
+    color: rgb(223, 64, 96);
+
+}
+
+strong {
+    color: rgb(13, 110, 253);
+
+
+
+}
+
+.line span {
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgb(84, 122, 233);
+    position: absolute;
+    top: -10px;
+    left: 44%;
+    border-radius: 50%;
+    background: black;
+}
+
+.line {
+    width: 150px;
+    margin: auto;
+    height: 3px;
+    background: rgb(84, 122, 233);
+    position: relative;
+}
+
+/* button  */
+.btn {
+    height: auto;
+    width: 180px;
+    background-image: linear-gradient(to right, rgb(223, 64, 96), rgb(73, 108, 213));
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    height: auto;
+    width: 180px;
+    background-image: linear-gradient(to right, rgb(73, 108, 213), rgb(223, 64, 96));
+    color: black;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+/* font awesome  */
+i {
+    font-size: 35px;
+    background-image: linear-gradient(to right, rgb(223, 64, 96), rgb(73, 108, 213));
+    -webkit-background-clip: text;
+    /* For Safari */
+    background-clip: text;
+    color: transparent;
+
+}
+
+/* hover on font awesome  */
+i:hover {
+    font-size: 35px;
+    background-image: linear-gradient(to right, rgb(73, 108, 213), rgb(223, 64, 96));
+    -webkit-background-clip: text;
+    /* For Safari */
+    background-clip: text;
+    color: transparent;
+
+}
+
+
+/* cards  */
+.card {
+    border-radius: 10px;
+}
+
+.card:hover {
+    border: 2px solid rgb(73, 108, 213);
+}
+
+
+/* parallax  */
+.parallax {
+    background-image: url('./images/second_image.jpg');
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+
+}
+
+
+li {
+    list-style: none;
+
+}
+
+ul.myUnordered:hover {
+    background-color: grey;
+    color: black;
+
+}
+
+/* styling for form  */
+.myForm {
+    background-color: rgb(33, 37, 41);
+    border-bottom: 2px solid rgb(223, 64, 96);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    color: white;
+}
+
+.myForm:focus {
+    border-bottom: 2px solid rgb(223, 64, 96);
+    background-color: rgb(33, 37, 41);
+
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: white;
+}
+
+input[type="number"]::placeholder {
+    color: white;
+    /* Change to desired color */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(33, 37, 41);
+    color: white;
+}
+
+.fa {
+    font-size: 50px;
+}
